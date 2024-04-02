@@ -140,6 +140,9 @@ hbase thrift start
 after all this run `stream_pipeline.py` script.
 
 and then open the spring boot appliation in your idea and run  it (you can access to the web app locally on  `localhost:8081/`)
+
+---
+
 ![spring_boot](images/run_web_app.png)
 
 
@@ -204,7 +207,6 @@ This project utilizes two dashboards to visualize smartphone price predictions a
 
 Here is the UI of th Spring Boot web application:
 
----
 
 ![spring_boot_web_ap](images/spring_boot_web_app.png)
 
