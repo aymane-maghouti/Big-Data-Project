@@ -123,7 +123,7 @@ kafka-console-producer.bat --topic smartphoneTopic --bootstrap-server localhost:
 kafka-console-consumer.bat --topic smartphoneTopic --from-beginning --bootstrap-server localhost:9092
 ```
 
-  - Run HDFS and yarn (start-all means start-dfs and start-yarn)
+  - Run HDFS and yarn (start-all or start-dfs and start-yarn)
 
    ```batch 
 start-all  
