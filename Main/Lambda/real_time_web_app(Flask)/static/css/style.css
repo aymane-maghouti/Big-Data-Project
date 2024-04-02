@@ -1,0 +1,43 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px; /* Increased margin for title */
+    color: #333; /* Dark gray title color */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px; /* Increased margin between list items */
+}
+
+li strong {
+    font-weight: bold;
+    margin-right: 15px;
+    color: #333; /* Dark gray label color */
+}
+
+.price {
+    color: #e74c3c; /* Red color for price */
+    font-weight: bold; /* Bold font for price */
+}

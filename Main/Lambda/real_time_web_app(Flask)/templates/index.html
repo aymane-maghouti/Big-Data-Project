@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js" integrity="sha512-UkPKEzcWAtZep3yOGH8vkDWMScvD17nRJz6P+4Hy8RCcLknZ5HjmDowRkyRm8D2v4GFJ8d1TZ6Ezy14vfnNbtg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Real-time Data Display</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Real Time Prediction</h1>
+        <ul id="record-list">
+            {% for key, value in last_record.items() %}
+                {% if key == 'Price' %}
+                    <li><strong>{{ key }}:</strong> <span class="price">{{ value }}</span> DH </li>
+                {% else %}
+                    <li><strong>{{ key }}:</strong> {{ value }}</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+
+
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>
