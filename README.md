@@ -25,7 +25,7 @@ This project aims to predict smartphone prices using a combination of batch and 
 ## 3. Architecture
 
 - Here is the architecture :
-- ![architecture](images/architecture.png)
+ ![architecture](images/architecture.png)
 
 
 The project architecture consists of five main layers: the ingestion layer, the batch layer, the stream layer, the serving layer and the visualization layer.
