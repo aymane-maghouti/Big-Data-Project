@@ -1,16 +1,16 @@
 # Smartphone Price Prediction in Big Data Environment
 
 ## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Technologies Used](#technologies-used)
-3. [Architecture](#architecture)
-4. [Repository Structure](#repository-structure)
-5. [Software Requirements for Running the Project](#software-requirements-for-running-the-project)
-6. [How to Run](#how-to-run)
-7. [Dashboards](#dashboards)
-8. [Acknowledgments](#acknowledgments)
-9. [Conclusion](#conclusion)
-10. [Contacts](#contacts)
+1. [Project Overview](#1-project-overview)
+2. [Technologies Used](#2-technologies-used)
+3. [Architecture](#3-architecture)
+4. [Repository Structure](#4-repository-structure)
+5. [Software Requirements for Running the Project](#5-software-requirements-for-running-the-project)
+6. [How to Run](#6-how-to-run)
+7. [Dashboards](#7-dashboards)
+8. [Acknowledgments](#8-acknowledgments)
+9. [Conclusion](#9-conclusion)
+10. [Contacts](#10-contacts)
 
 ## 1. Project Overview
 This project aims to predict smartphone prices using a combination of batch and stream processing techniques in a Big Data environment. The architecture follows the Lambda Architecture pattern, providing both real-time and batch processing capabilities to users.
@@ -203,6 +203,8 @@ This project utilizes two dashboards to visualize smartphone price predictions a
 
 
 Here is the UI of th Spring Boot web application:
+
+---
 
 ![spring_boot_web_ap](images/spring_boot_web_app.png)
 
