@@ -77,7 +77,7 @@ This project requires the following software to be installed and configured on y
 
 * **XGBoost** 
 
-**Additional Tools (Optional):**
+**Additional Tools:**
 
 * **Apache Airflow** 
 * **Power BI Desktop** 
@@ -123,7 +123,7 @@ kafka-console-producer.bat --topic smartphoneTopic --bootstrap-server localhost:
 kafka-console-consumer.bat --topic smartphoneTopic --from-beginning --bootstrap-server localhost:9092
 ```
 
-  - Run HDFS and yarn (start-all or start-dfs and start-yarn)
+  - Start HDFS and yarn (start-all or start-dfs and start-yarn)
 
    ```batch 
 start-all  
@@ -184,14 +184,14 @@ kafka-console-producer.bat --topic smartphoneTopic --bootstrap-server localhost:
 kafka-console-consumer.bat --topic smartphoneTopic --from-beginning --bootstrap-server localhost:9092
 ```
 
-  - Run HDFS and yarn (start-all means start-dfs and start-yarn)
+  - Run HDFS and yarn (start-all or start-dfs and start-yarn)
 
    ```batch 
 start-all  
 ```
    - Open power BI file `dashboard.pbix` attached with this project 
 
-after all this run `batch_pipeline.py` script.
+after all this run `syc_with_Airflow.py` script.
 
 
 ## 7. Dashboards
@@ -229,7 +229,7 @@ Here is the  Dashboard created in Power BI:
 
 ## 9. Conclusion
 
-- This big data architecture effectively predicts smartphone prices in real-time and provides historical analysis capabilities. The Lambda architecture facilitates efficient stream processing for real-time predictions using XGBoost and HBase, while Apache Airflow orchestrates batch processing with Spark to populate the PostgreSQL data warehouse for in-depth historical insights. This solution empowers real-time and batch users with valuable price information, enabling data-driven decision-making.
+- This big data architecture effectively predicts smartphone prices in real-time and provides historical analysis capabilities. The Lambda architecture facilitates efficient stream processing for real-time predictions using XGBoost and HBase, while Apache Airflow orchestrates batch processing with Spark to populate the PostgreSQL data warehouse for historical insights. This solution empowers real-time and batch users with valuable price information, enabling data-driven decision-making.
 
 you can watch the demo video <a href="https://www.youtube.com/watch?v=rVQFABynodw" target="_blank">here</a> 
 
