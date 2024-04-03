@@ -420,5 +420,5 @@ you can watch the demo video <a href="https://www.youtube.com/watch?v=rVQFABynod
 
 For any inquiries or further information, please contact:
 - **Name:** Aymane Maghouti
-- **Email:** aymanemaghouti@gmail.com
+- **Email:** aymanemaghouti16@gmail.com
 - **LinkedIn:** <a href="https://www.linkedin.com/in/aymane-maghouti/" target="_blank">Aymane Maghouti</a><br>
