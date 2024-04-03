@@ -17,8 +17,8 @@ This project aims to predict smartphone prices using a combination of batch and 
 
 ## 2. Technologies Used
 * **Ingestion Layer:** Apache Kafka (message broker)
-* **Stream Layer:** XGBoost (machine learning model), Apache HBase (real-time database)
-* **Batch Layer:** Apache Spark (data processing framework), Apache Airflow (workflow orchestration), PostgreSQL (data warehouse)
+* **Stream Layer:** XGBoost (machine learning model), Apache HBase (real-time View)
+* **Batch Layer:** Apache Spark (data processing framework), Apache Airflow (workflow orchestration), PostgreSQL (data warehouse (Batch View))
 * **Visualization:** Spring Boot (web application framework), Power BI (interactive dashboards)
 
 
