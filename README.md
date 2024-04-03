@@ -311,9 +311,9 @@ kafka-console-consumer.bat --topic smartphoneTopic --from-beginning --bootstrap-
    ```batch 
 start-all  
 ```
-   - Run Hbase
+   - Start Hbase
    ```batch 
-hbase shell  
+start-hbase  
 ```
    - Run thrift server (for Hbase)
    ```batch 
