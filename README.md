@@ -414,7 +414,7 @@ Here is the  Dashboard created in Power BI:
 
 - This big data architecture effectively predicts smartphone prices in real-time and provides historical analysis capabilities. The Lambda architecture facilitates efficient stream processing for real-time predictions using XGBoost and HBase, while Apache Airflow orchestrates batch processing with Spark to populate the PostgreSQL data warehouse for historical insights. This solution empowers real-time and batch users with valuable price information, enabling data-driven decision-making.
 
-you can watch the demo video <a href="https://www.youtube.com/watch?v=rVQFABynodw" target="_blank">here</a> 
+you can watch the demo video <a href="https://youtu.be/iClZyC_TZyA" target="_blank">here</a> 
 
 ## 10. Contacts
 
